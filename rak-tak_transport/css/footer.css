@@ -1,0 +1,106 @@
+.footer-top {
+    background-color: #031933;
+    color: #7F94AC;
+    padding: 70px 0;
+}
+
+.logo-footer {
+    width: 124px;
+    margin-bottom: 40px;
+}
+
+.footer-contacts a img {
+    margin-right: 16px;
+}
+
+.footer-contacts li a {
+    color: #D6E3F2;
+    text-decoration: none;
+}
+
+.footer-contacts li {
+    margin-bottom: 9px;
+}
+
+.socials-network {
+    margin-top: 40px;
+    display: flex;
+    gap: 24px
+}
+
+.footer-contacts, .socials-network {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.footer-bottom {
+    background-color: #BBCFE7;
+    color: #4A6586;
+}
+
+.footer-bottom-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.footer-bottom-content ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: centre;
+    list-style: none;
+    gap: 24px;
+    margin: 40px 0;
+}
+
+.footer-bottom-content ul li a {
+    color: #4A6586;
+    text-decoration: none;
+}
+
+.newsletter input {
+    border: 1px solid rgba(187, 207, 231, 0.2);
+    padding: 20px 16px 20px 48px;
+    margin-bottom: 8px;
+    border-radius: 8px;
+    width: 100%;
+    background: url('../images/mail-white.svg') no-repeat  rgba(187, 207, 231, 0.1) 16px center ;
+}
+
+.newsletter button {
+    background-color: #EC2027;
+    color: white;
+    width: 100%;
+    border: none;
+    padding: 20px 16px;
+    border-radius: 8px;
+    font-weight: 600px;
+}
+.part1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+.part2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    padding-top: 14px;
+}
+.nous {
+    display: flex;
+
+    gap: 10px;
+
+   
+}
+.fin {
+    padding-top: 45px;
+}
+.infos {
+    display: flex;
+    right: 16px;
+}

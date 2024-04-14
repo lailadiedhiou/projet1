@@ -1,0 +1,64 @@
+.jumbo {
+    padding-top: 150px;
+    background: url(../images/Group\ 1.jpg) no-repeat black center bottom;
+    color: white;
+    background-size: cover;
+}
+
+.slide_show_items {
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 18px;
+    border-radius: 8px;
+}
+
+.slick-slide {
+    margin: 0 8px 0 8px;
+}
+
+.slide_show_items:hover {
+    background-color: white;
+    color: #031933;
+}
+ 
+.slide_show_items:hover p {
+    color: #69809A
+}
+
+.slide_show_items:hover svg path {
+    fill: #EC2027
+} 
+
+.slick-arrow {
+    position: absolute;
+    top: 50%;
+    height: 46px;
+    width: 46px;
+    border-radius: 46px;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slick-arrow:hover {
+    background-color: red;
+    cursor: pointer;
+}
+
+.slick-prev {
+    left: -60px
+}
+
+.slick-next {
+    right: -60px
+}
+.jumbo_title {
+    position: relative;
+}
+
+.jumbo_button {
+    padding: 8px;
+    border-radius: 5px;
+    background-color: white;
+    color: red;
+}

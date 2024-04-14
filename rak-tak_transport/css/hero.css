@@ -1,0 +1,12 @@
+
+.hero-two {
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('../images/voiture-4-chevaux-1024x576.jpg') fixed black center bottom;
+    background-size: cover;
+    padding: 200px 0;
+    color: white;
+}
+
+.hero-two-content-title {
+    font-size: 48px;
+}
+

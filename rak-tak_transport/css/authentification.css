@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "poppins" , sans-serif;
+    box-sizing: border-box;
+    transition: all.2s linear;
+    text-decoration: none;
+    border: none;
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 7em;
+    scroll-behavior: smooth;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 20;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 8%;
+    height: 80px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+.header-logo {
+    color: #ea1f33;
+    font-size: 25px;
+    font-weight: bold;
+}
+.header-logo span{
+    color:#000;
+}
+.main-menu {
+    display: flex;
+}
+.main-menu li{
+    list-style: none;
+    margin: 0 15px;
+}
+.main-menu li a{
+    font-size: 14px;
+    color: #000;
+    font-weight: 300;
+    transition: 0.2s;
+}
+.main-menu li a:hover{
+    color: #ea1f33;
+}
+header button{
+    background-color: #ea1f33;
+    cursor: pointer;
+    color: #fff;
+    padding: 5px 25px;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    position: relative;
+    border: none;
+    text-decoration: none;
+}
+label {
+    margin-top: 5px;
+    text-transform: uppercase;
+}
+input {
+    padding: 10px;
+    border: 1px solid #999;
+    outline: 0;
+    margin-top: 2px;
+}
+input:focus{
+    border: 1px solid #ffcb61;
+}
+input[type="submit"]{
+    margin-top: 25px;
+    background-color: #ea1f33;
+    border: 1px solid #ea1f33;
+    cursor: pointer;
+    color: #fff;
+    text-transform: uppercase;
+}
+form {
+    background-color: #f6f8f8;
+    padding: 25px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    border-radius: 6px;
+}
+.form form {
+    display: flex;
+    width: 350px;
+    flex-direction: column;
+}

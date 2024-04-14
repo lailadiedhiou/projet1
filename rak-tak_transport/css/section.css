@@ -1,0 +1,85 @@
+.section {
+    padding: 80px 0;
+}
+
+.section-title {
+    margin-bottom: 40px;
+}
+
+.section-dark {
+    background-color: #031933;
+    color: white;
+}
+
+.section-white {
+    background-color: #fff;
+}
+
+.section-light {
+    background-color: #E5E5E5;
+}
+
+.works-element {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 0 60px;
+}
+
+.works-element img {
+    width: 50%;
+    border-radius: 8px;
+}
+
+.slick-dots {
+    position: absolute;
+    right: 0;
+    top: 30%;
+    list-style: none;
+}
+
+.slick-dots button {
+    width: 16px;
+    height: 16px;
+    border-radius: 16px;
+    border: 1px solid #BBCFE7;
+    background-color: #031933;
+    color: transparent
+}
+
+.slick-dots .slick-active button {
+    background-color: #BBCFE7;
+}
+
+.service {
+    display: flex;
+    gap: 24px;
+    align-items: flex-start;
+}
+
+.new {
+    background-color: white;
+}
+
+
+.new > img {
+    aspect-ratio: 16/9;
+    width: 100%;
+    object-fit: cover;
+}
+
+.new-content {
+    padding: 30px 20px;
+    position: relative;
+}
+
+.new-date {
+    position: absolute;
+    top: -12px;
+    background-color: white;
+    display: flex;
+    padding: 9px;
+    border-radius: 8px;
+
+}
